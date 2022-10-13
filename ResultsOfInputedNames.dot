@@ -1,0 +1,8 @@
+digraph G {
+  rankdir=LR
+  node [label="Joffrey Baratheon", shape=box]
+  node1 [label="brother", style=filled, fillcolor=green]
+  node2 [label="Tommen Baratheon"]
+
+  node0 -> node1 -> node2
+}
